@@ -1,0 +1,25 @@
+key,group,field,season,type,description,value_min,value_max
+al_eu_su_cu,All,ecrg_ncr,summer,CumulativeUncertainty,All Ecoregion-weighted uncertainty in summer for CumulativeUncertainty,0.085936095106824,1
+al_eu_wi_cu,All,ecrg_ncr,winter,CumulativeUncertainty,All Ecoregion-weighted uncertainty in winter for CumulativeUncertainty,0.165122839144049,1
+al_er_su_wr,All,ecrg_rc,summer,WeightedRichShape,All Ecoregion-weighted richness in summer for WeightedRichShape,0.129947722180732,1
+al_er_wi_wr,All,ecrg_rc,winter,WeightedRichShape,All Ecoregion-weighted richness in winter for WeightedRichShape,0.100142045454545,1
+fi_eu_su_cu,Fish,ecrg_ncr,summer,CumulativeUncertainty,Fish Ecoregion-weighted uncertainty in summer for CumulativeUncertainty,0.023009833018523,1
+fi_eu_wi_cu,Fish,ecrg_ncr,winter,CumulativeUncertainty,Fish Ecoregion-weighted uncertainty in winter for CumulativeUncertainty,0.05747355490815,1
+fi_er_su_wr,Fish,ecrg_rc,summer,WeightedRichShape,Fish Ecoregion-weighted richness in summer for WeightedRichShape,0.027944111776447,1
+fi_er_wi_wr,Fish,ecrg_rc,winter,WeightedRichShape,Fish Ecoregion-weighted richness in winter for WeightedRichShape,0.060077519379845,1
+ra_eu_su_cu,Ray,ecrg_ncr,summer,CumulativeUncertainty,Ray Ecoregion-weighted uncertainty in summer for CumulativeUncertainty,0.001700630112721,1
+ra_eu_wi_cu,Ray,ecrg_ncr,winter,CumulativeUncertainty,Ray Ecoregion-weighted uncertainty in winter for CumulativeUncertainty,0.007897144939438,1
+ra_er_su_wr,Ray,ecrg_rc,summer,WeightedRichShape,Ray Ecoregion-weighted richness in summer for WeightedRichShape,0,1
+ra_er_wi_wr,Ray,ecrg_rc,winter,WeightedRichShape,Ray Ecoregion-weighted richness in winter for WeightedRichShape,0,1
+rl_eu_su_cu,Red-listed,ecrg_ncr,summer,CumulativeUncertainty,Red-listed Ecoregion-weighted uncertainty in summer for CumulativeUncertainty,0.099359146535016,1
+rl_eu_wi_cu,Red-listed,ecrg_ncr,winter,CumulativeUncertainty,Red-listed Ecoregion-weighted uncertainty in winter for CumulativeUncertainty,0.219087998990562,1
+rl_er_su_wr,Red-listed,ecrg_rc,summer,WeightedRichShape,Red-listed Ecoregion-weighted richness in summer for WeightedRichShape,0.071315372424723,1
+rl_er_wi_wr,Red-listed,ecrg_rc,winter,WeightedRichShape,Red-listed Ecoregion-weighted richness in winter for WeightedRichShape,0.121904761904762,1
+sh_eu_su_cu,Shark,ecrg_ncr,summer,CumulativeUncertainty,Shark Ecoregion-weighted uncertainty in summer for CumulativeUncertainty,0.056903371139272,1
+sh_eu_wi_cu,Shark,ecrg_ncr,winter,CumulativeUncertainty,Shark Ecoregion-weighted uncertainty in winter for CumulativeUncertainty,0.089813442297436,1
+sh_er_su_wr,Shark,ecrg_rc,summer,WeightedRichShape,Shark Ecoregion-weighted richness in summer for WeightedRichShape,0.018567639257294,1
+sh_er_wi_wr,Shark,ecrg_rc,winter,WeightedRichShape,Shark Ecoregion-weighted richness in winter for WeightedRichShape,0.002358490566038,1
+tu_eu_su_cu,Turtle,ecrg_ncr,summer,CumulativeUncertainty,Turtle Ecoregion-weighted uncertainty in summer for CumulativeUncertainty,0.04037496507061,1
+tu_eu_wi_cu,Turtle,ecrg_ncr,winter,CumulativeUncertainty,Turtle Ecoregion-weighted uncertainty in winter for CumulativeUncertainty,0.053536572131442,1
+tu_er_su_wr,Turtle,ecrg_rc,summer,WeightedRichShape,Turtle Ecoregion-weighted richness in summer for WeightedRichShape,0,1
+tu_er_wi_wr,Turtle,ecrg_rc,winter,WeightedRichShape,Turtle Ecoregion-weighted richness in winter for WeightedRichShape,0,1
