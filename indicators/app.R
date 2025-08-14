@@ -19,27 +19,27 @@ mapbox_tkn_txt <- glue("{dir_private}/mapbox_token_bdbest.txt")
 lyrs_csv       <- here("indicators/layers.csv")
 
 # load mapgl with mapbox token ----
+stopifnot(file.exists(mapbox_tkn_txt))
 Sys.setenv(MAPBOX_PUBLIC_TOKEN=readLines(mapbox_tkn_txt))
-# devtools::install_github("bbest/mapgl")
 librarian::shelf(
   mapgl)
-
-# database connection ----
-stopifnot(file.exists(db_pass_txt))
-con <- DBI::dbConnect(
-  RPostgres::Postgres(),
-  dbname   = "msens",
-  host     = ifelse(is_server, "postgis", "localhost"),
-  port     = 5432,
-  user     = "admin",
-  password = readLines(db_pass_txt),
-  options  ="-c search_path=oceanmetrics,public")
 
 # layers ----
 
 if (file.exists(lyrs_csv)) {
   d_lyrs <- read_csv(lyrs_csv)
 } else {
+  stopifnot(file.exists(db_pass_txt))
+  
+  con <- DBI::dbConnect(
+    RPostgres::Postgres(),
+    dbname   = "msens",
+    host     = ifelse(is_server, "postgis", "localhost"),
+    port     = 5432,
+    user     = "admin",
+    password = readLines(db_pass_txt),
+    options  ="-c search_path=oceanmetrics,public")
+  
   tbl(con, "ds_indicators_lyrs") |>
     collect() |> 
     write_csv(lyrs_csv)
@@ -62,7 +62,7 @@ ui <- page_sidebar(
   sidebar = sidebar(
     selectInput(
       "sel_group",
-      "Groups",
+      "Group",
       choices = lyr_groups),
     selectInput(
       "sel_season",
